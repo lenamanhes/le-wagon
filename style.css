@@ -1,0 +1,98 @@
+h1{
+	color: #DB6A5D;
+	font-size: 40Px;
+	letter-spacing: 1PX;
+	text-align: center;
+
+}
+p {
+	text-align: center;
+	letter-spacing: 1PX;
+	color: white;
+}
+h2{
+	color: #DB6A5D;
+	text-decoration-line: underline;
+
+}
+h3{
+	line-height: 0.3;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+a{
+	text-decoration-line: none;
+	color: #214D8A;
+
+}
+
+.banner{
+
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+
+}
+
+.banner h1 {
+  color: #DB6A5D;
+  font-size: 45px;
+  margin: 0;
+}
+
+.button-blue{
+	background-color:#DB6A5D ;
+	color: white ;
+	padding: 16px 48px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3S;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+
+.button-blue:hover{
+	background-color:#E09487 ;
+	color: white;
+	padding: 20px 50px;	
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+.card-white{
+  background:#E09487;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.footer {
+	background: black;
+	text-align: center;
+	padding: 24px 0;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
